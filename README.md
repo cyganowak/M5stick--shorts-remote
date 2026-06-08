@@ -16,7 +16,7 @@ A Bluetooth LE Mouse controller for M5StickC Plus2 that controls TikTok/YouTube 
 ## Hardware Requirements
 
 - M5StickC Plus2 (ESP32-based)
-- Micro-USB cable for programming
+- USB-C cable for flashing
 - Android device with Bluetooth LE support
 
 ## Installation
@@ -62,7 +62,7 @@ A Bluetooth LE Mouse controller for M5StickC Plus2 that controls TikTok/YouTube 
 
 ## Configuration
 
-Edit these constants in the sketch:
+Edit these constants in the sketch to configure it for your device:
 
 ```cpp
 const int STEP_PX          = 60;   // Cursor movement per step
